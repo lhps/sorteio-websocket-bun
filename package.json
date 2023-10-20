@@ -1,0 +1,20 @@
+{
+  "name": "sorteio-websocket",
+  "version": "0.0.1",
+  "description": "Aplicação de sorteio ao vivo",
+  "main": "index.js",
+  "scripts": {
+    "start": "bun run ./src/app.js"
+  },
+  "keywords": [],
+  "author": "Lucas Pinho",
+  "license": "MIT",
+  "dependencies": {
+    "serve-static-bun": "^0.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1"
+  }
+}
